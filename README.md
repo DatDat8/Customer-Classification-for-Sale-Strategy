@@ -11,3 +11,9 @@ campaign.
 The objective of this task is to construct a model that predicts whether
 a customer will buy the policy or not. A test set of 4000 instances is also provided to filter out
 the most 800 highly promising cases that want to buy the mentioned policy.
+
+## Results
+* Method used to cope with Imbalanced Data: Random Undersampling
+* Model Selected for Imbalanced Classification: Gradient Boosting Classifier
+* F1 Score : 0.723 ; AUC Score: 0.795
+* Important Features: Contribution Fire Policies, Contribution Car Policies, Car Subtypes
